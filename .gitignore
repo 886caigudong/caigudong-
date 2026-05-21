@@ -1,0 +1,9 @@
+# Ignore everything by default
+/*
+
+# But allow gitignore itself
+!/.gitignore
+
+# Allow .claude directory traversal
+!/.claude/
+!/.claude/**

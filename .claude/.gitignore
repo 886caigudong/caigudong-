@@ -1,0 +1,17 @@
+# ignore temp/cache data
+cache/
+telemetry/
+backups/
+file-history/
+ide/
+session-env/
+sessions/
+shell-snapshots/
+plugins/
+skills/
+.last-cleanup
+stats-cache.json
+
+# keep plans and tasks (optional, comment out if unwanted)
+plans/
+tasks/
