@@ -1,0 +1,1 @@
+- [GitHub 自动备份](github_setup.md) — 对话历史自动 commit + push 到 GitHub
