@@ -7,9 +7,8 @@
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-chat",
     "ANTHROPIC_SMALL_FAST_MODEL": "deepseek-chat"
   },
-  "includeCoAuthoredBy": false,
-  "theme": "dark",
   "language": "chinese",
+  "theme": "dark",
   "hooks": {
     "SessionEnd": [
       {
@@ -17,7 +16,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cd ~ && git add .claude/history.jsonl .claude/projects/ .claude/settings.json .claude/memory/ .claude/.gitignore 2>/dev/null && git diff --cached --quiet 2>/dev/null || (git commit -m \"auto: update conversation history $(date '+%Y-%m-%d %H:%M')\" && /c/Program\\ Files/GitHub\\ CLI/gh.exe push 2>&1)"
+            "command": "cd /workspace/claude-history && git add .claude/ 2>/dev/null && git diff --cached --quiet 2>/dev/null || (git -c http.proxy=http://127.0.0.1:7890 commit -m \"auto: update from server \2026-05-23 12:47\" && git -c http.proxy=http://127.0.0.1:7890 push 2>&1)"
           }
         ]
       }
