@@ -1,1 +1,6 @@
-- [GitHub 自动备份](github_setup.md) — 对话历史自动 commit + push 到 GitHub
+- [GitHub 自动备份](github_setup.md) — 对话历史自动 commit + push 到 GitHub，含代理配置
+- [用户画像](user_profile.md) — Windows 10 中文开发者，Claude Code CLI 用户
+- [记忆保留策略](memory_retention.md) — 主动记录信息，避免每次对话重新开始
+- [云服务器配置](project_server.md) — 京东云 Ubuntu + mihomo + Claude Code 24h 运行
+- [语言偏好](language_preference.md) — 全程使用中文对话
+- [飞书 Bot 项目](feishu-bot.md) — Claude Code 能力平移到飞书手机端
